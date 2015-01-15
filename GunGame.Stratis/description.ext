@@ -1,0 +1,26 @@
+#include "menus.hpp"
+
+onLoadMission = "Gun Game";
+onLoadIntro = "Gun Game is a fast paced PvP game type where players have to progress through a list weapons. Good for practising aiming and handling of different weapons.";
+onLoadMissionTime = 1;
+onLoadIntroTime = 1;
+loadScreen =  "";
+author = "Ed!";
+onLoadName = "Gun Game";
+class Header
+{
+	gameType = DM; // MP misison type
+}; 	
+respawn = 3;
+respawnDelay = 3;
+respawnDialog = 1;
+disabledAI = 1;
+aiKills = 0;
+enableItemsDropping = 0;
+joinUnassigned = 0;
+corpseManagerMode = 1;
+corpseLimit = 2;
+corpseRemovalMinTime = 1;
+corpseRemovalMaxTime = 2;
+disableChannels[]={3,4,5,6};
+enableDebugConsole = 1;
